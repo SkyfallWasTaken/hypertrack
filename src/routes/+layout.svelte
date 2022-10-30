@@ -4,4 +4,4 @@
 </script>
 
 <Header />
-<main class="container p-5"><slot /></main>
+<main class="container p-8"><slot /></main>
