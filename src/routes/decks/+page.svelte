@@ -1,6 +1,6 @@
 <script lang="ts">
     import Card from "./Card.svelte";
-    import PlusCircleIcon from "svelte-feather-icons/src/icons/PlusCircleIcon.svelte";
+    import PlusIcon from "svelte-feather-icons/src/icons/PlusIcon.svelte";
 </script>
 
 <svelte:head>
@@ -9,8 +9,8 @@
 
 <div class="flex">
     <h1 class="text-3xl font-bold mb-5">Your decks</h1>
-    <button class="btn btn-primary ml-auto gap-2">
-        <PlusCircleIcon />
+    <button class="btn btn-primary ml-auto gap-1">
+        <PlusIcon strokeWidth={2.2} />
         New deck
     </button>
 </div>
